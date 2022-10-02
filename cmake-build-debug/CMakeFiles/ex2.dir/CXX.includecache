@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/SkillboxProjects/project_struct/ex2/cpu.h
+rum.h
+D:/SkillboxProjects/project_struct/ex2/rum.h
+
+D:/SkillboxProjects/project_struct/ex2/disk.h
+fstream
+-
+rum.h
+D:/SkillboxProjects/project_struct/ex2/rum.h
+
+D:/SkillboxProjects/project_struct/ex2/gpu.h
+rum.h
+D:/SkillboxProjects/project_struct/ex2/rum.h
+
+D:/SkillboxProjects/project_struct/ex2/kbd.h
+rum.h
+D:/SkillboxProjects/project_struct/ex2/rum.h
+
+D:/SkillboxProjects/project_struct/ex2/main.cpp
+iostream
+-
+kbd.h
+D:/SkillboxProjects/project_struct/ex2/kbd.h
+cpu.h
+D:/SkillboxProjects/project_struct/ex2/cpu.h
+gpu.h
+D:/SkillboxProjects/project_struct/ex2/gpu.h
+disk.h
+D:/SkillboxProjects/project_struct/ex2/disk.h
+
+D:/SkillboxProjects/project_struct/ex2/rum.h
+
