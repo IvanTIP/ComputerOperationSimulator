@@ -4,7 +4,7 @@
 int save () {
     int buffer[8];
     std::ofstream file;
-    file.open ("D:\\SkillboxProjects\\project_struct\\ex2\\data.txt");
+    file.open ("data.txt");
     if (!file.is_open()) {
         std::cout << "The file is not open" << std::endl;
         return 1;
@@ -22,7 +22,7 @@ int save () {
 int load () {
     int buffer[8];
     std::ifstream file;
-    file.open ("D:\\SkillboxProjects\\project_struct\\ex2\\data.txt");
+    file.open ("data.txt");
     if (!file.is_open()) {
         std::cout << "The file is not open" << std::endl;
         return 1;
