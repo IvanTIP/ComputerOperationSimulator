@@ -85,16 +85,34 @@
 		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/cpu.h">
 			<Option target="ex2"/>
 		</Unit>
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/disk.h">
+			<Option target="ex2"/>
+		</Unit>
 		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/gpu.h">
 			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/kbd.h">
 			<Option target="ex2"/>
 		</Unit>
-		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/rum.h">
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/ram.h">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/cpu.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/disk.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/gpu.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/kbd.cpp">
 			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/main.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/ram.cpp">
 			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="D:/SkillboxProjects/project_struct/ex2/CMakeLists.txt">

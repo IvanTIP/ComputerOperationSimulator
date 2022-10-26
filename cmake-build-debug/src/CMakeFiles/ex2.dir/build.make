@@ -79,19 +79,99 @@ src/CMakeFiles/ex2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/main.cpp.s"
 	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\main.cpp -o CMakeFiles\ex2.dir\main.cpp.s
 
+src/CMakeFiles/ex2.dir/cpu.cpp.obj: src/CMakeFiles/ex2.dir/flags.make
+src/CMakeFiles/ex2.dir/cpu.cpp.obj: src/CMakeFiles/ex2.dir/includes_CXX.rsp
+src/CMakeFiles/ex2.dir/cpu.cpp.obj: ../src/cpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/ex2.dir/cpu.cpp.obj"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex2.dir\cpu.cpp.obj -c D:\SkillboxProjects\project_struct\ex2\src\cpu.cpp
+
+src/CMakeFiles/ex2.dir/cpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/cpu.cpp.i"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SkillboxProjects\project_struct\ex2\src\cpu.cpp > CMakeFiles\ex2.dir\cpu.cpp.i
+
+src/CMakeFiles/ex2.dir/cpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/cpu.cpp.s"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\cpu.cpp -o CMakeFiles\ex2.dir\cpu.cpp.s
+
+src/CMakeFiles/ex2.dir/ram.cpp.obj: src/CMakeFiles/ex2.dir/flags.make
+src/CMakeFiles/ex2.dir/ram.cpp.obj: src/CMakeFiles/ex2.dir/includes_CXX.rsp
+src/CMakeFiles/ex2.dir/ram.cpp.obj: ../src/ram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/ex2.dir/ram.cpp.obj"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex2.dir\ram.cpp.obj -c D:\SkillboxProjects\project_struct\ex2\src\ram.cpp
+
+src/CMakeFiles/ex2.dir/ram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/ram.cpp.i"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SkillboxProjects\project_struct\ex2\src\ram.cpp > CMakeFiles\ex2.dir\ram.cpp.i
+
+src/CMakeFiles/ex2.dir/ram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/ram.cpp.s"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\ram.cpp -o CMakeFiles\ex2.dir\ram.cpp.s
+
+src/CMakeFiles/ex2.dir/disk.cpp.obj: src/CMakeFiles/ex2.dir/flags.make
+src/CMakeFiles/ex2.dir/disk.cpp.obj: src/CMakeFiles/ex2.dir/includes_CXX.rsp
+src/CMakeFiles/ex2.dir/disk.cpp.obj: ../src/disk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/ex2.dir/disk.cpp.obj"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex2.dir\disk.cpp.obj -c D:\SkillboxProjects\project_struct\ex2\src\disk.cpp
+
+src/CMakeFiles/ex2.dir/disk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/disk.cpp.i"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SkillboxProjects\project_struct\ex2\src\disk.cpp > CMakeFiles\ex2.dir\disk.cpp.i
+
+src/CMakeFiles/ex2.dir/disk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/disk.cpp.s"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\disk.cpp -o CMakeFiles\ex2.dir\disk.cpp.s
+
+src/CMakeFiles/ex2.dir/gpu.cpp.obj: src/CMakeFiles/ex2.dir/flags.make
+src/CMakeFiles/ex2.dir/gpu.cpp.obj: src/CMakeFiles/ex2.dir/includes_CXX.rsp
+src/CMakeFiles/ex2.dir/gpu.cpp.obj: ../src/gpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/ex2.dir/gpu.cpp.obj"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex2.dir\gpu.cpp.obj -c D:\SkillboxProjects\project_struct\ex2\src\gpu.cpp
+
+src/CMakeFiles/ex2.dir/gpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/gpu.cpp.i"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SkillboxProjects\project_struct\ex2\src\gpu.cpp > CMakeFiles\ex2.dir\gpu.cpp.i
+
+src/CMakeFiles/ex2.dir/gpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/gpu.cpp.s"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\gpu.cpp -o CMakeFiles\ex2.dir\gpu.cpp.s
+
+src/CMakeFiles/ex2.dir/kbd.cpp.obj: src/CMakeFiles/ex2.dir/flags.make
+src/CMakeFiles/ex2.dir/kbd.cpp.obj: src/CMakeFiles/ex2.dir/includes_CXX.rsp
+src/CMakeFiles/ex2.dir/kbd.cpp.obj: ../src/kbd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/ex2.dir/kbd.cpp.obj"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex2.dir\kbd.cpp.obj -c D:\SkillboxProjects\project_struct\ex2\src\kbd.cpp
+
+src/CMakeFiles/ex2.dir/kbd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/kbd.cpp.i"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SkillboxProjects\project_struct\ex2\src\kbd.cpp > CMakeFiles\ex2.dir\kbd.cpp.i
+
+src/CMakeFiles/ex2.dir/kbd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/kbd.cpp.s"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\kbd.cpp -o CMakeFiles\ex2.dir\kbd.cpp.s
+
 # Object files for target ex2
 ex2_OBJECTS = \
-"CMakeFiles/ex2.dir/main.cpp.obj"
+"CMakeFiles/ex2.dir/main.cpp.obj" \
+"CMakeFiles/ex2.dir/cpu.cpp.obj" \
+"CMakeFiles/ex2.dir/ram.cpp.obj" \
+"CMakeFiles/ex2.dir/disk.cpp.obj" \
+"CMakeFiles/ex2.dir/gpu.cpp.obj" \
+"CMakeFiles/ex2.dir/kbd.cpp.obj"
 
 # External object files for target ex2
 ex2_EXTERNAL_OBJECTS =
 
 src/ex2.exe: src/CMakeFiles/ex2.dir/main.cpp.obj
+src/ex2.exe: src/CMakeFiles/ex2.dir/cpu.cpp.obj
+src/ex2.exe: src/CMakeFiles/ex2.dir/ram.cpp.obj
+src/ex2.exe: src/CMakeFiles/ex2.dir/disk.cpp.obj
+src/ex2.exe: src/CMakeFiles/ex2.dir/gpu.cpp.obj
+src/ex2.exe: src/CMakeFiles/ex2.dir/kbd.cpp.obj
 src/ex2.exe: src/CMakeFiles/ex2.dir/build.make
 src/ex2.exe: src/CMakeFiles/ex2.dir/linklibs.rsp
 src/ex2.exe: src/CMakeFiles/ex2.dir/objects1.rsp
 src/ex2.exe: src/CMakeFiles/ex2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ex2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ex2.exe"
 	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ex2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

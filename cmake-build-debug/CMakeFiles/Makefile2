@@ -77,7 +77,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/ex2_2.dir/all
+src/all: src/CMakeFiles/ex2.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -85,34 +85,34 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/ex2_2.dir/clean
+src/clean: src/CMakeFiles/ex2.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/ex2_2.dir
+# Target rules for target src/CMakeFiles/ex2.dir
 
 # All Build rule for target.
-src/CMakeFiles/ex2_2.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ex2_2"
-.PHONY : src/CMakeFiles/ex2_2.dir/all
+src/CMakeFiles/ex2.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2.dir\build.make src/CMakeFiles/ex2.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2.dir\build.make src/CMakeFiles/ex2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ex2"
+.PHONY : src/CMakeFiles/ex2.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/ex2_2.dir/rule: cmake_check_build_system
+src/CMakeFiles/ex2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ex2_2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ex2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/ex2_2.dir/rule
+.PHONY : src/CMakeFiles/ex2.dir/rule
 
 # Convenience name for target.
-ex2_2: src/CMakeFiles/ex2_2.dir/rule
-.PHONY : ex2_2
+ex2: src/CMakeFiles/ex2.dir/rule
+.PHONY : ex2
 
 # clean rule for target.
-src/CMakeFiles/ex2_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/clean
-.PHONY : src/CMakeFiles/ex2_2.dir/clean
+src/CMakeFiles/ex2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2.dir\build.make src/CMakeFiles/ex2.dir/clean
+.PHONY : src/CMakeFiles/ex2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

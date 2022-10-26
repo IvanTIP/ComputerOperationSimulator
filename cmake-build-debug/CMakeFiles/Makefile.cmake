@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/ex2_2.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex2.dir/DependInfo.cmake"
   )

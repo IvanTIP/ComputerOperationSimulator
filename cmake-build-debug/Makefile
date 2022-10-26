@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex2_2
+# Target rules for targets named ex2
 
 # Build rule for target.
-ex2_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex2_2
-.PHONY : ex2_2
+ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex2
+.PHONY : ex2
 
 # fast build rule for target.
-ex2_2/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/build
-.PHONY : ex2_2/fast
+ex2/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2.dir\build.make src/CMakeFiles/ex2.dir/build
+.PHONY : ex2/fast
 
 # Help Target
 help:
@@ -136,7 +136,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ex2_2
+	@echo ... ex2
 .PHONY : help
 
 

@@ -7,34 +7,54 @@
 #IncludeRegexTransform: 
 
 ../include/cpu.h
-rum.h
-../include/rum.h
 
 ../include/disk.h
-fstream
--
-rum.h
-../include/rum.h
 
 ../include/gpu.h
-rum.h
-../include/rum.h
 
 ../include/kbd.h
-rum.h
-../include/rum.h
 
-../include/rum.h
+../include/ram.h
+
+D:/SkillboxProjects/project_struct/ex2/src/cpu.cpp
+cpu.h
+D:/SkillboxProjects/project_struct/ex2/src/cpu.h
+ram.h
+D:/SkillboxProjects/project_struct/ex2/src/ram.h
+
+D:/SkillboxProjects/project_struct/ex2/src/disk.cpp
+fstream
+-
+ram.h
+D:/SkillboxProjects/project_struct/ex2/src/ram.h
+iostream
+-
+
+D:/SkillboxProjects/project_struct/ex2/src/gpu.cpp
+ram.h
+D:/SkillboxProjects/project_struct/ex2/src/ram.h
+iostream
+-
+
+D:/SkillboxProjects/project_struct/ex2/src/kbd.cpp
+ram.h
+D:/SkillboxProjects/project_struct/ex2/src/ram.h
+iostream
+-
 
 D:/SkillboxProjects/project_struct/ex2/src/main.cpp
 iostream
 -
-kbd.h
-D:/SkillboxProjects/project_struct/ex2/src/kbd.h
 cpu.h
 D:/SkillboxProjects/project_struct/ex2/src/cpu.h
-gpu.h
-D:/SkillboxProjects/project_struct/ex2/src/gpu.h
 disk.h
 D:/SkillboxProjects/project_struct/ex2/src/disk.h
+gpu.h
+D:/SkillboxProjects/project_struct/ex2/src/gpu.h
+kbd.h
+D:/SkillboxProjects/project_struct/ex2/src/kbd.h
+
+D:/SkillboxProjects/project_struct/ex2/src/ram.cpp
+ram.h
+D:/SkillboxProjects/project_struct/ex2/src/ram.h
 
