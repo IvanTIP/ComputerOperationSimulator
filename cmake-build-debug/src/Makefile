@@ -116,25 +116,121 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/ComputerOperationSimulator.dir/rule:
-	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ComputerOperationSimulator.dir/rule
-.PHONY : src/CMakeFiles/ComputerOperationSimulator.dir/rule
+src/CMakeFiles/ex2_2.dir/rule:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ex2_2.dir/rule
+.PHONY : src/CMakeFiles/ex2_2.dir/rule
 
 # Convenience name for target.
-ComputerOperationSimulator: src/CMakeFiles/ComputerOperationSimulator.dir/rule
-.PHONY : ComputerOperationSimulator
+ex2_2: src/CMakeFiles/ex2_2.dir/rule
+.PHONY : ex2_2
 
 # fast build rule for target.
-ComputerOperationSimulator/fast:
-	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ComputerOperationSimulator.dir\build.make src/CMakeFiles/ComputerOperationSimulator.dir/build
-.PHONY : ComputerOperationSimulator/fast
+ex2_2/fast:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/build
+.PHONY : ex2_2/fast
+
+cpu.obj: cpu.cpp.obj
+.PHONY : cpu.obj
+
+# target to build an object file
+cpu.cpp.obj:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/cpu.cpp.obj
+.PHONY : cpu.cpp.obj
+
+cpu.i: cpu.cpp.i
+.PHONY : cpu.i
+
+# target to preprocess a source file
+cpu.cpp.i:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/cpu.cpp.i
+.PHONY : cpu.cpp.i
+
+cpu.s: cpu.cpp.s
+.PHONY : cpu.s
+
+# target to generate assembly for a file
+cpu.cpp.s:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/cpu.cpp.s
+.PHONY : cpu.cpp.s
+
+disk.obj: disk.cpp.obj
+.PHONY : disk.obj
+
+# target to build an object file
+disk.cpp.obj:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/disk.cpp.obj
+.PHONY : disk.cpp.obj
+
+disk.i: disk.cpp.i
+.PHONY : disk.i
+
+# target to preprocess a source file
+disk.cpp.i:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/disk.cpp.i
+.PHONY : disk.cpp.i
+
+disk.s: disk.cpp.s
+.PHONY : disk.s
+
+# target to generate assembly for a file
+disk.cpp.s:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/disk.cpp.s
+.PHONY : disk.cpp.s
+
+gpu.obj: gpu.cpp.obj
+.PHONY : gpu.obj
+
+# target to build an object file
+gpu.cpp.obj:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/gpu.cpp.obj
+.PHONY : gpu.cpp.obj
+
+gpu.i: gpu.cpp.i
+.PHONY : gpu.i
+
+# target to preprocess a source file
+gpu.cpp.i:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/gpu.cpp.i
+.PHONY : gpu.cpp.i
+
+gpu.s: gpu.cpp.s
+.PHONY : gpu.s
+
+# target to generate assembly for a file
+gpu.cpp.s:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/gpu.cpp.s
+.PHONY : gpu.cpp.s
+
+kbd.obj: kbd.cpp.obj
+.PHONY : kbd.obj
+
+# target to build an object file
+kbd.cpp.obj:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/kbd.cpp.obj
+.PHONY : kbd.cpp.obj
+
+kbd.i: kbd.cpp.i
+.PHONY : kbd.i
+
+# target to preprocess a source file
+kbd.cpp.i:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/kbd.cpp.i
+.PHONY : kbd.cpp.i
+
+kbd.s: kbd.cpp.s
+.PHONY : kbd.s
+
+# target to generate assembly for a file
+kbd.cpp.s:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/kbd.cpp.s
+.PHONY : kbd.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ComputerOperationSimulator.dir\build.make src/CMakeFiles/ComputerOperationSimulator.dir/main.cpp.obj
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -142,7 +238,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ComputerOperationSimulator.dir\build.make src/CMakeFiles/ComputerOperationSimulator.dir/main.cpp.i
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,8 +246,32 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ComputerOperationSimulator.dir\build.make src/CMakeFiles/ComputerOperationSimulator.dir/main.cpp.s
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+ram.obj: ram.cpp.obj
+.PHONY : ram.obj
+
+# target to build an object file
+ram.cpp.obj:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/ram.cpp.obj
+.PHONY : ram.cpp.obj
+
+ram.i: ram.cpp.i
+.PHONY : ram.i
+
+# target to preprocess a source file
+ram.cpp.i:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/ram.cpp.i
+.PHONY : ram.cpp.i
+
+ram.s: ram.cpp.s
+.PHONY : ram.s
+
+# target to generate assembly for a file
+ram.cpp.s:
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/ram.cpp.s
+.PHONY : ram.cpp.s
 
 # Help Target
 help:
@@ -161,10 +281,25 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ComputerOperationSimulator
+	@echo ... ex2_2
+	@echo ... cpu.obj
+	@echo ... cpu.i
+	@echo ... cpu.s
+	@echo ... disk.obj
+	@echo ... disk.i
+	@echo ... disk.s
+	@echo ... gpu.obj
+	@echo ... gpu.i
+	@echo ... gpu.s
+	@echo ... kbd.obj
+	@echo ... kbd.i
+	@echo ... kbd.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... ram.obj
+	@echo ... ram.i
+	@echo ... ram.s
 .PHONY : help
 
 

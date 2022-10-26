@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ComputerOperationSimulator
+# Target rules for targets named ex2_2
 
 # Build rule for target.
-ComputerOperationSimulator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ComputerOperationSimulator
-.PHONY : ComputerOperationSimulator
+ex2_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex2_2
+.PHONY : ex2_2
 
 # fast build rule for target.
-ComputerOperationSimulator/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ComputerOperationSimulator.dir\build.make src/CMakeFiles/ComputerOperationSimulator.dir/build
-.PHONY : ComputerOperationSimulator/fast
+ex2_2/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex2_2.dir\build.make src/CMakeFiles/ex2_2.dir/build
+.PHONY : ex2_2/fast
 
 # Help Target
 help:
@@ -136,7 +136,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ComputerOperationSimulator
+	@echo ... ex2_2
 .PHONY : help
 
 

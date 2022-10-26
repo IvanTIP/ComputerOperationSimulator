@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project("Computer Operation Simulator" VERSION 1.0)
+project(ex2_2)
 
 set(CMAKE_CXX_STANDARD 14)
 

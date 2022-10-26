@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.obj"
   "CMakeFiles/ComputerOperationSimulator.dir/main.cpp.obj"
+  "CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.obj"
   "ComputerOperationSimulator.exe"
   "ComputerOperationSimulator.exe.manifest"
   "ComputerOperationSimulator.pdb"

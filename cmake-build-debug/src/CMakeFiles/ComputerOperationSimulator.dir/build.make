@@ -79,19 +79,51 @@ src/CMakeFiles/ComputerOperationSimulator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerOperationSimulator.dir/main.cpp.s"
 	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\main.cpp -o CMakeFiles\ComputerOperationSimulator.dir\main.cpp.s
 
+src/CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.obj: src/CMakeFiles/ComputerOperationSimulator.dir/flags.make
+src/CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.obj: src/CMakeFiles/ComputerOperationSimulator.dir/includes_CXX.rsp
+src/CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.obj: ../src/ram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.obj"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerOperationSimulator.dir\ram.cpp.obj -c D:\SkillboxProjects\project_struct\ex2\src\ram.cpp
+
+src/CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.i"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SkillboxProjects\project_struct\ex2\src\ram.cpp > CMakeFiles\ComputerOperationSimulator.dir\ram.cpp.i
+
+src/CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.s"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\ram.cpp -o CMakeFiles\ComputerOperationSimulator.dir\ram.cpp.s
+
+src/CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.obj: src/CMakeFiles/ComputerOperationSimulator.dir/flags.make
+src/CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.obj: src/CMakeFiles/ComputerOperationSimulator.dir/includes_CXX.rsp
+src/CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.obj: ../src/cpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.obj"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerOperationSimulator.dir\cpu.cpp.obj -c D:\SkillboxProjects\project_struct\ex2\src\cpu.cpp
+
+src/CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.i"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SkillboxProjects\project_struct\ex2\src\cpu.cpp > CMakeFiles\ComputerOperationSimulator.dir\cpu.cpp.i
+
+src/CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.s"
+	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SkillboxProjects\project_struct\ex2\src\cpu.cpp -o CMakeFiles\ComputerOperationSimulator.dir\cpu.cpp.s
+
 # Object files for target ComputerOperationSimulator
 ComputerOperationSimulator_OBJECTS = \
-"CMakeFiles/ComputerOperationSimulator.dir/main.cpp.obj"
+"CMakeFiles/ComputerOperationSimulator.dir/main.cpp.obj" \
+"CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.obj" \
+"CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.obj"
 
 # External object files for target ComputerOperationSimulator
 ComputerOperationSimulator_EXTERNAL_OBJECTS =
 
 src/ComputerOperationSimulator.exe: src/CMakeFiles/ComputerOperationSimulator.dir/main.cpp.obj
+src/ComputerOperationSimulator.exe: src/CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.obj
+src/ComputerOperationSimulator.exe: src/CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.obj
 src/ComputerOperationSimulator.exe: src/CMakeFiles/ComputerOperationSimulator.dir/build.make
 src/ComputerOperationSimulator.exe: src/CMakeFiles/ComputerOperationSimulator.dir/linklibs.rsp
 src/ComputerOperationSimulator.exe: src/CMakeFiles/ComputerOperationSimulator.dir/objects1.rsp
 src/ComputerOperationSimulator.exe: src/CMakeFiles/ComputerOperationSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ComputerOperationSimulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ComputerOperationSimulator.exe"
 	cd /d D:\SkillboxProjects\project_struct\ex2\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ComputerOperationSimulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

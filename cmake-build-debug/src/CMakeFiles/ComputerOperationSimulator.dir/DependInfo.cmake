@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/SkillboxProjects/project_struct/ex2/src/cpu.cpp" "D:/SkillboxProjects/project_struct/ex2/cmake-build-debug/src/CMakeFiles/ComputerOperationSimulator.dir/cpu.cpp.obj"
   "D:/SkillboxProjects/project_struct/ex2/src/main.cpp" "D:/SkillboxProjects/project_struct/ex2/cmake-build-debug/src/CMakeFiles/ComputerOperationSimulator.dir/main.cpp.obj"
+  "D:/SkillboxProjects/project_struct/ex2/src/ram.cpp" "D:/SkillboxProjects/project_struct/ex2/cmake-build-debug/src/CMakeFiles/ComputerOperationSimulator.dir/ram.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

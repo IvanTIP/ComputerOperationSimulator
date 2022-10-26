@@ -85,16 +85,16 @@
 		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/cpu.h">
 			<Option target="ComputerOperationSimulator"/>
 		</Unit>
-		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/gpu.h">
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/ram.h">
 			<Option target="ComputerOperationSimulator"/>
 		</Unit>
-		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/kbd.h">
-			<Option target="ComputerOperationSimulator"/>
-		</Unit>
-		<Unit filename="D:/SkillboxProjects/project_struct/ex2/include/rum.h">
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/cpu.cpp">
 			<Option target="ComputerOperationSimulator"/>
 		</Unit>
 		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/main.cpp">
+			<Option target="ComputerOperationSimulator"/>
+		</Unit>
+		<Unit filename="D:/SkillboxProjects/project_struct/ex2/src/ram.cpp">
 			<Option target="ComputerOperationSimulator"/>
 		</Unit>
 		<Unit filename="D:/SkillboxProjects/project_struct/ex2/CMakeLists.txt">
